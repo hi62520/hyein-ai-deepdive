@@ -15,25 +15,29 @@ Tiago Forte는 2017년부터 "Building a Second Brain(BASB)" 이라는 개인 �
 
 ## 무엇이 특별한가
 
-### 1. PKM → PCM: 패러다임 이름부터 바꿨다
+### 1. PKM → PCM: 패러다임 이름부터 바꿨다, CODE 구조도 바뀐다
 
-Forte가 2026년에 제시한 핵심 개념은 **Personal Context Management(PCM)**입니다. 기존 PKM이 "내 지식을 어디에, 어떻게 저장하고 체계화할 것인가"를 물었다면, PCM은 "AI에게 내 맥락을 언제, 어떤 형식으로, 얼마나 줄 것인가"를 묻습니다. "새로운 병목은 AI의 능력이 아니라 AI에게 적시에 적절한 정보를 주는 당신의 능력입니다(The new bottleneck isn't AI capability, but your ability to give AI the right information at the right time)." 이 전환은 단순한 마케팅 리브랜딩이 아닙니다. PARA(Projects·Areas·Resources·Archives) 구조가 '내 두뇌 외부 스토리지'에서 'AI에게 넘길 컨텍스트 레이어'로 기능 재정의됩니다.
+Forte가 2026년에 제시한 핵심 개념은 **Personal Context Management(PCM)**입니다. 기존 PKM이 "내 지식을 어디에, 어떻게 저장하고 체계화할 것인가"를 물었다면, PCM은 "AI에게 내 맥락을 언제, 어떤 형식으로, 얼마나 줄 것인가"를 묻습니다. "새로운 병목은 AI의 능력이 아니라 AI에게 적시에 적절한 정보를 주는 당신의 능력입니다(The new bottleneck isn't AI capability, but your ability to give AI the right information at the right time)." 이 전환은 단순한 마케팅 리브랜딩이 아닙니다. BASB의 4단계 방법론 CODE(Capture → Organize → Distill → Express)에서 **Distill 단계를 AI가 담당**하게 되면서 인간의 역할이 이동합니다. 정보를 압축·정제하는 지적 노동은 AI에게 위임되고, 인간은 **무엇을 캡처할 것인가(Capture의 품질)** 와 **최종 출력물의 판단(Express의 맥락)**에 집중합니다. PARA 구조 역시 재해석됩니다 — Projects·Areas는 AI가 컨텍스트 범위를 잡는 경계선이므로 여전히 엄밀하게 관리해야 하지만, Resources·Archives는 AI 검색이 사람의 수동 탐색을 대체하므로 훨씬 덜 정제된 상태로 쌓아둬도 됩니다.
 
 ### 2. 3년 침묵, YouTube로 $1.5M: 콘텐츠가 영업 채널이 된 사례
 
-2025년 Forte의 수익 구조에서 가장 큰 변화는 YouTube가 주 판매 채널이 된 것입니다. AI 두 번째 뇌 프로그램으로 YouTube 채널이 $150만(약 20억 원) 이상의 매출을 직접 발생시켰습니다. 이는 구독자당 $4 이상의 수익 전환율입니다. 뉴스레터·유료 멤버십 위주의 기존 교육 비즈니스 모델이 아니라, 무료 롱폼 YouTube 콘텐츠 → 고가 코호트 프로그램 전환 루프를 완성한 사례입니다. 유튜브 영상 4.8M 뷰, 노션 템플릿 2,350개 판매 등 무료 가치가 유료 전환 파이프라인을 압도적으로 강화했습니다.
+2025년 Forte의 수익 구조에서 가장 큰 변화는 YouTube가 주 판매 채널이 된 것입니다. AI 두 번째 뇌 프로그램으로 YouTube 채널이 $150만(약 20억 원) 이상의 매출을 직접 발생시켰습니다. Forte는 2025년 연간 리뷰에서 "우리는 명백히 YouTube-퍼스트 비즈니스다. 2022년 YouTube에 집중하지 않았다면 지금 비즈니스가 없었을 것(We are clearly a YouTube-first business... I wouldn't have much of a business right now if I hadn't [pursued YouTube in 2022])"이라고 직접 선언했습니다. 2025년 YouTube 지표: 구독자 373,000명, 연간 뷰 4.8M, 신규 구독자의 53%가 YouTube 유입, 고객 첫 발견 경로 36%가 YouTube. NotebookLM 워크스루 단일 영상 하나가 신규 구독자 31,000명을 유입시켰습니다. 유료 Second Brain 멤버십은 2025년 2월 기준 550명, MRR $22,000 규모입니다. 무료 콘텐츠 → 유료 코호트 전환 루프가 완성된 구조입니다.
 
 ### 3. AI 두 번째 뇌 프로그램 구조: Claude를 도구로 쓰는 3주 코호트
 
-The AI Second Brain은 3주 라이브 코호트(10회 세션 × 90분)로 구성됩니다. 2026년 코호트 1은 4월 15일~5월 1일 진행됐고, 코호트 2는 9월 17일~10월 8일 예정입니다. 핵심 도구로 **Claude**(Claude Cowork + Claude Code 포함)를 채택했으며, ChatGPT·Gemini 전환 가이드도 병행 제공합니다. 수강생은 3주 안에 "이미 내 비즈니스·기준·목표를 아는 새 팀원처럼 작동하는 개인화 AI 시스템"을 설계·설치합니다. 코호트 수료 후 1년간 매월 Tiago와의 Show & Tell 세션, 커뮤니티 액세스, 녹화본 접근이 포함됩니다.
+The AI Second Brain은 3주 라이브 코호트(**8회 세션 × 90분**, 월·수·금 오전 11시 ET)로 구성됩니다. 2026년 코호트 1은 4월 15일~5월 1일 진행됐고, 코호트 2는 9월 17일~10월 8일 예정입니다. 핵심 도구로 **Claude**(Claude Cowork + Claude Code 포함)를 채택했으며, ChatGPT·Gemini 전환 가이드도 병행 제공합니다. 수강생은 3주 안에 "이미 내 비즈니스·기준·목표를 아는 새 팀원처럼 작동하는 개인화 AI 시스템"을 설계·설치합니다. 코호트 수료 후 1년간 매월 Tiago와의 Show & Tell 세션, 커뮤니티 액세스, 녹화본 접근이 포함됩니다. Forte가 공개한 Year 1 목표는 참가자 200명, 매출 $1M, 순이익 $500K입니다.
 
 ### 4. Second Brain Enterprise 철수: 맞지 않는 방향에서의 과감한 이탈
 
-2024년 말 출시된 Second Brain Enterprise(기업 AI 시스템 설계 컨설팅 프로그램)는 2025년 말 전면 철수했습니다. Tiago는 "장기적으로 나와 맞지 않는다는 것을 깨달았다"고 인정하며 Hayden Miyamoto 팀의 EMPOWER Labs로 브랜드를 이전했습니다. 솔로프레너가 자신에게 맞지 않는 비즈니스를 용기 있게 포기하고 더 적합한 방향으로 집중한 사례입니다. BASB 북미 기업 시장보다 개인 프로페셔널·크리에이터·프리랜서 시장에 집중하기로 재정의했습니다.
+2025년 출시된 Second Brain Enterprise(기업 AI 시스템 설계 컨설팅 프로그램)는 3개 코호트, 150개 이상 기업에서 약 200명의 수강생을 배출했습니다. 수강생 후기: "프롬프트 작성법을 배우러 왔는데 실제로는 4주 짜리 Executive MBA 과정을 받았다." 그럼에도 2025년 말 Forte는 프로그램에서 손을 뗐습니다. 이탈 이유는 직접 인용: **"장기 합작 벤처는 나에게 맞지 않습니다. 공동창업자와 조율하는 것이 싫고, 자율성과 창의적 자유를 우선시합니다(Long-term joint ventures don't suit me. I don't like coordinating with another co-founder and prioritize autonomy and creative freedom)."** Hayden Miyamoto의 EMPOWER Labs로 브랜드 전체를 이전했습니다. 이 결정은 솔로프레너로서 성과가 나오는 사업이라도 자신의 운영 철학과 맞지 않으면 멈출 수 있다는 것을 보여주는 사례입니다.
 
 ### 5. PARA의 생존 이유: 구조가 AI 컨텍스트 단위가 된다
 
-Forte는 "PARA는 AI 시대에도 여전히 유효하다"고 주장하지만 이유가 달라졌습니다. Projects·Areas·Resources·Archives 4개 버킷이 '관련성 기준 정리'라는 원칙을 유지하면서, 이제는 AI에게 넘길 컨텍스트의 **단위와 범위**를 정의하는 구조로 전환됩니다. 프로젝트 폴더 하나를 Claude에게 통째로 넘기면 AI가 해당 프로젝트의 배경·결정·기준을 즉시 파악할 수 있습니다. 노트 정리 목적이 아니라 AI 프롬프트 준비 목적으로 PARA가 재해석된 것입니다.
+Forte는 "PARA는 AI 시대에도 여전히 유효하다"고 주장하지만 이유가 달라졌습니다. "당신의 개인 파일은 AI 도구에 제공할 수 있는 가장 가치 있는 컨텍스트 중 하나가 됐습니다. 그리고 그 컨텍스트는 당신과 AI 모두 실제로 사용할 수 있는 방식으로 정리돼야 합니다(Your personal files are becoming some of the most valuable context you can feed to AI tools. And that context needs to be organized in a way both you and AI can actually use)." Projects·Areas는 AI의 컨텍스트 범위를 결정하므로 엄밀하게 유지해야 합니다. 반면 Resources·Archives는 이제 AI 검색이 사람의 수동 탐색을 대신하므로 덜 정제된 상태로 쌓아도 됩니다. 프로젝트 폴더 하나를 Claude에게 통째로 넘기면 AI가 해당 프로젝트의 배경·결정·기준을 즉시 파악할 수 있습니다.
+
+### 6. AI 글쓰기 시스템 공개: 21,000단어 스타일 가이드로 Claude를 자신의 목소리로 훈련
+
+2025년 Forte가 공개한 가장 논쟁적인 내용은 AI 글쓰기 시스템입니다. 500개 이상의 블로그 포스트를 쓴 뒤, 그는 Claude Sonnet에게 자신의 베스트 에세이 20편을 분석하도록 해 **21,000단어 분량의 스타일 가이드**를 만들었습니다. 결과: "Claude가 내 정확한 목소리와 스타일로 콘텐츠의 90%를 초안 작성한다. 편당 4-6시간 절감(Claude drafts 90% of my content in my exact voice and style—saving me 4-6 hours per piece)." 이후 Forte Labs 블로그에는 **"Tiago Forte (AI-Assisted)"** 라는 별도 저자 표기가 생겼습니다. 이에 대한 논쟁이 일자 Forte는 즉각 해명: "초안 작성(drafting)과 글쓰기(writing)를 혼동한 것이다. 실제 절감 시간은 총 소요 시간의 30-40%다." 이 사례는 콘텐츠 크리에이터가 AI 위임의 범위와 투명성 기준을 어디에 그을 것인가라는 질문을 던집니다.
 
 ## 와당탕/느린호밀 적용 포인트
 
@@ -65,14 +69,17 @@ system_prompt = BASE_PROMPT + "\n\n## 현재 프로젝트 컨텍스트\n" + load
 ## 더 깊이 보려면
 
 - [Introducing The AI Second Brain — Forte Labs](https://fortelabs.com/blog/introducing-the-ai-second-brain/)
+- [Why PARA Is the Key to the AI Era — Forte Labs](https://fortelabs.com/blog/why-para-is-the-key-to-the-ai-era/)
 - [What is the AI Second Brain? — Help Center](https://help.fortelabs.com/hc/en-us/articles/44591754695821-What-is-the-AI-Second-Brain)
 - [The AI Second Brain: Complete System Walkthrough (YouTube)](https://www.youtube.com/watch?v=-TAowrw97-4)
 - [Tiago Forte's 2025 Annual Review](https://fortelabs.com/blog/tiago-fortes-2025-annual-review/)
+- [Life in Perspective (신간 사전예약, 2026년 11월 3일 출간)](https://lifeinperspective.com/)
 - [Building a Second Brain (공식 사이트)](https://www.buildingasecondbrain.com/)
 
 ## 강의 메모 후보 (Pain/숫자/삽질/훅)
 
 - **Pain**: 매번 Claude에게 "나는 와당탕연구소 운영하는 1인 사업자인데요..."를 반복 설명하는 것. AI 능력의 문제가 아니라 내 컨텍스트를 체계화하지 못한 문제입니다.
 - **숫자**: 유튜브 구독자 37만 3천 명 → AI 프로그램으로 $1.5M 직접 매출. 구독자 한 명이 약 $4 가치. 무료 콘텐츠가 영업팀보다 강한 이유.
-- **삽질**: Forte는 6,000명에게 BASB를 가르치고 멈췄습니다. "AI 시대에 맞지 않는다"는 것을 알면서 관성으로 계속 가르치지 않고 3년을 재설계에 썼습니다. 솔로프레너가 자신의 주력 상품을 멈출 수 있는 용기.
+- **삽질**: Forte는 6,000명에게 BASB를 가르치고 멈췄습니다. "AI 시대에 맞지 않는다"는 것을 알면서 관성으로 계속 가르치지 않고 3년을 재설계에 썼습니다. 그리고 성과가 나오던 SBE도 "공동창업자와 조율하는 게 싫다"는 이유로 과감히 손을 뗐습니다. 솔로프레너가 자신의 주력 상품을 두 번 멈출 수 있는 용기.
+- **신간**: 2026년 11월 3일 Simon & Schuster에서 "Life in Perspective: The Art and Power of the Annual Life Review" 출간 예정. 15년의 연간 리뷰 실천을 방법론으로 정리. 와당탕 강의 소재 후보.
 - **훅**: "ChatGPT 답변이 맨날 뻔한 이유, 사실 AI 문제가 아닙니다. AI에게 당신이 누구인지 한 번도 제대로 알려준 적 없어서 그래요."
