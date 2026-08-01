@@ -23,6 +23,28 @@ swyx(Shawn Wang)와 Latent Space가 AIEWF 2026 개막 키노트에서 선언한 
 
 ## 무엇이 특별한가 — 딥다이브 루프 해부
 
+### 0. 루프가 이미 시대정신이다 — 세 가지 인용
+
+재조명을 시작하기 전에, 2026년 6-7월 AI 엔지니어링 세계를 관통한 세 문장을 먼저 꺼냅니다.
+
+**Peter Steinberger** (2026년 6월 7일 트윗, Latent Space Loopcraft 포스트의 도화선):
+> *"Here's your monthly reminder that you shouldn't be prompting coding agents anymore. You should be designing loops that prompt your agents."*
+(번역: "이달의 알림: 이제 에이전트에게 프롬프트를 보내는 걸 그만둬야 합니다. 당신이 할 일은 에이전트에게 프롬프트를 보내는 루프를 설계하는 것입니다.")
+
+**Boris Cherny** (Claude Code 총괄, Anthropic):
+> *"I don't prompt Claude anymore. I have loops running. They're the ones prompting Claude and figuring out what to do. My job is to write loops."*
+(번역: "저는 더 이상 Claude에게 프롬프트를 보내지 않습니다. 루프가 돌고 있고, 루프가 Claude에게 프롬프트를 보냅니다. 제 일은 루프를 짜는 것입니다.")
+
+**Karpathy** (No Priors 팟캐스트 인터뷰):
+> *"To get the most out of the tools that have become available now, you have to remove yourself as the bottleneck. You cannot be there to prompt the next thing. You need to take yourself outside the loop."*
+(번역: "지금 가용한 도구를 최대한 활용하려면, 당신 자신이 병목이 되어서는 안 됩니다. 다음 프롬프트를 보내는 사람이 당신이어서는 안 됩니다. 당신은 루프 바깥에 있어야 합니다.")
+
+그리고 swyx의 AIEWF 2026 키노트 핵심 선언:
+> *"One might argue the entire game of the next century is to be able to stack loops as effectively as possible."*
+(번역: "어쩌면 다음 세기의 전체 게임은 루프를 얼마나 효과적으로 쌓느냐의 문제일지도 모릅니다.")
+
+이 네 문장이 공통으로 가리키는 것: **프롬프트를 보내는 사람이 아니라, 루프를 설계하는 사람이 다음 시대를 지배한다.**
+
 ### 1. 이 시스템은 3개 레이어의 루프 스택이다
 
 swyx가 "Stacking Loops"라고 부르는 구조를 이 시스템에서 그대로 찾을 수 있습니다.
@@ -40,6 +62,20 @@ swyx의 핵심 통찰은 여기서 빛납니다: *"루프를 쌓는다는 것은
 AIEWF 2026의 핵심 경고: AI가 쓴 코드 PR의 약 52%는 제대로 검토되지 않는다(Verification Gap). 이 딥다이브 시스템에도 동일한 위험이 있습니다. 에이전트가 쓴 글을 대표님이 매일 아침 읽지 않으면, 품질이 떨어져도 루프는 계속 돕니다. 시스템이 이를 어떻게 해결했는지 보면: **GitHub 커밋 기록**(모든 변경 내역 추적), **텔레그램 알림**(대표님이 폰에서 제목과 인사이트를 스캔), **비서앱 ledger**(green/pink 색상으로 상태 기록). 이 세 겹이 Verification Layer 역할을 합니다. AI가 잘못 실행했을 때 대표님이 개입할 수 있는 최소한의 접점을 유지하는 구조입니다.
 
 swyx의 표현: *"The central problem is not giving up on humans."* 루프를 완전 자율에 넘기는 게 아니라, 인간이 최소 개입으로 최대 관찰을 유지하도록 설계하는 것이 하네스 엔지니어링의 핵심입니다.
+
+### 2-1. L1-L4 루프 스택 구조 — 실전 분류법
+
+Addy Osmani와 AIEWF 2026 워크숍 자료가 공개한 루프 스택 분류법을 이 딥다이브 시스템에 대입해봅니다.
+
+**L1 — Agent Loop (실행 루프)**: 모델이 도구를 호출하며 인지→추론→행동→관찰→추론을 반복하는 가장 안쪽 루프. 이 딥다이브 시스템에서 하루의 글쓰기 자체가 L1입니다. 직접 구축하지 않아도 됩니다 — Claude Code 하네스가 제공합니다.
+
+**L2 — Verification Loop (검증 루프)**: L1 결과를 검증하는 래퍼. 이 시스템에서 GitHub URL 200 확인, 텔레그램 전송 성공 여부 체크가 L2입니다.
+
+**L3 — Event-Driven Loop (이벤트 루프)**: 크론·웹훅·Slack이 에이전트를 트리거합니다. 이 시스템에서 매일 8시 스케줄 자동 실행이 L3입니다. 대표님이 터미널을 열지 않아도 루프가 깨어납니다.
+
+**L4 — Hill-Climbing Loop (자기진화 루프)**: 평가 결과 기반으로 프롬프트·도구·모델 선택이 자동 개선됩니다. 이 시스템에서는 아직 미구현 단계입니다 — 지금 쌓이는 100개+ 딥다이브 데이터가 미래 L4의 훈련 데이터입니다.
+
+Addy Osmani의 표현: *"That inner loop is capability. The outer loop is agency."* 내부 루프는 능력이고, 외부 루프는 자율성입니다. 대표님이 설계해야 할 것은 L3-L4, 즉 외부 루프입니다.
 
 ### 3. 루프에는 반드시 "탈출 조건"이 있어야 한다
 
@@ -106,10 +142,14 @@ def run_stack():
 
 ## 더 깊이 보려면
 
+- [Latent Space: Loopcraft — The Art of Stacking Loops](https://www.latent.space/p/loopcraft)
 - [Latent Space: "5 Trends That Defined AI Engineering at World's Fair 2026"](https://www.latent.space/p/aiewf26trends)
 - [원본 딥다이브 07-29: swyx Loopcraft 원론](./2026-07-29_deepdive_팟캐스트뉴스레터_swyx-Latent-Space-루프를설계하는자가에이전트시대를지배한다.md)
 - [관련 딥다이브 07-24: Cole Medin 자기진화 메모리 — 루프 기억 레이어](./2026-07-24_deepdive_에이전트빌딩_Cole-Medin-자기진화메모리-두번째뇌.md)
 - [관련 딥다이브 07-31: IndyDevDan Living Software — 루프가 코드를 배포한다](./2026-07-31_deepdive_에이전트빌딩_IndyDevDan-Living-Software-코드베이스가-스스로-배포된다.md)
+- [Geoffrey Huntley: Everything Is a Ralph Loop](https://ghuntley.com/loop/)
+- [Addy Osmani: Own the Outer Loop](https://addyosmani.com/blog/own-the-outer-loop/)
+- [Boris Cherny & Cat Wu: Claude Code Agent Loops 해설 (The Neuron)](https://www.theneuron.ai/explainer-articles/claude-code-creators-boris-cherny-and-cat-wu-explain-how-to-use-agent-loops/)
 
 ---
 
@@ -118,4 +158,4 @@ def run_stack():
 - **Pain**: "에이전트한테 맡겼더니 잘 됐는지 확인하는 게 더 걱정이다." 루프가 없어서 생기는 문제가 아니라, 루프에 Verification Layer가 없어서 생기는 문제입니다.
 - **숫자**: 이 딥다이브 시스템 하나로 100개+ 글, 1000+ 인사이트가 4개월에 쌓였습니다. 루프 1개의 복리 효과입니다.
 - **삽질**: 루프 설계 없이 "매일 글 쓰기"를 의지로 시작하면 3주 안에 멈춥니다. 루프는 의지를 시스템으로 바꾸는 장치입니다.
-- **훅**: "매일 아침 대표님 폰에 딥다이브가 오는 이유는 의지력이 아닙니다. 루프 때문입니다. 루프를 설계한 사람과 실행하는 사람은 다른 레벨에서 삽니다. 오늘 그 차이를 보여드리겠습니다."
+- **훅**: "매일 아침 대표님 폰에 딥다이브가 오는 이유는 의지력이 아닙니다. 루프 때문입니다. Claude Code 총괄 Boris Cherny의 말: '저는 더 이상 Claude에게 프롬프트를 보내지 않습니다. 루프가 보냅니다. 제 일은 루프를 짜는 것입니다.' 오늘 그 루프를 직접 해부합니다."
